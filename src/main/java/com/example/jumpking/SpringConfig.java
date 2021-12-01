@@ -13,4 +13,5 @@ public class SpringConfig {
         return new MemoryAdminRepository();
     }
 
+
 }
