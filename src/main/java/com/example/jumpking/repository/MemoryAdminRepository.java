@@ -1,6 +1,7 @@
 package com.example.jumpking.repository;
 
 import com.example.jumpking.domain.Admin;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
