@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
 public class AdminService {
 
     private final AdminRepository adminRepository;
@@ -39,5 +38,8 @@ public class AdminService {
 
     public Optional<Admin> findOne(Long adminId) {
         return adminRepository.findById(adminId);
+    }
+
+    public void add() {
     }
 }
